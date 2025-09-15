@@ -10,7 +10,7 @@ This framework is get device name from model number.
 
 - File > Swift Packages > Add Package Dependency
 - Add https://github.com/joeljfischer/YMTGetDeviceName
-- Select "Up to Next Major" with "5.10.0"
+- Select "Up to Next Major" with "6.0.0"
 
 ## How to use
 ### Import
