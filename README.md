@@ -1,9 +1,9 @@
 # YMTGetDeviceName
-This framework is get device name from model number.
+This framework gets a friendly device name from the hardware model identifier.
 
 ## Description
-Standard UIDevice can only distinguish iPhone or iPad.  
-This framework is get device name from model number.
+Standard `UIDevice` can only distinguish between broad device families such as iPhone and iPad.
+This framework resolves the hardware model identifier to a friendly device name.
 
 ## Installation
 ### Use Swift Package Manager
@@ -25,5 +25,4 @@ print(YMTGetDeviceName.getDeviceName())
 
 ## Q&A
 ### What is the range of supported devices?
-Supports iOS devices up to 2025/09/15
-
+Supports iPhone and iPad identifiers up to 2026/03/24, including the missing 2024-2026 iPhone and iPad models verified in this update.
