@@ -5,7 +5,7 @@
 //  Created by MasamiYamate on 2018/09/19.
 //  Copyright © 2018年 MasamiYamate. All rights reserved.
 //
-//  Updated by Joel Fischer on 2026/03/24.
+//  Updated by Joel Fischer on 2026/10/21.
 //
 import Foundation
 
@@ -160,6 +160,14 @@ public class YMTGetDeviceName {
         case iPhone18_4 = "iPhone18,4"
         /// iPhone 17e
         case iPhone18_5 = "iPhone18,5"
+        /// iPhone 18 Pro
+        case iPhone19_2 = "iPhone19,2"
+        /// iPhone 18 Pro Max (A3473)
+        case iPhone19_3 = "iPhone19,3"
+        /// iPhone Duo
+        case iPhone19_4 = "iPhone19,4"
+        /// iPhone 18 Pro Max (A3716/A3717/A3718)
+        case iPhone19_7 = "iPhone19,7"
 
         // MARK: iPad
         /// iPad
@@ -441,6 +449,9 @@ public class YMTGetDeviceName {
             case .iPhone18_3: return "iPhone 17"
             case .iPhone18_4: return "iPhone Air"
             case .iPhone18_5: return "iPhone 17e"
+            case .iPhone19_2: return "iPhone 18 Pro"
+            case .iPhone19_3, .iPhone19_7: return "iPhone 18 Pro Max"
+            case .iPhone19_4: return "iPhone Duo"
 
             // MARK: iPad
             case .iPad1_1: return "iPad"

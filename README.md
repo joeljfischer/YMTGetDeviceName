@@ -10,7 +10,7 @@ This framework resolves the hardware model identifier to a friendly device name.
 
 - File > Swift Packages > Add Package Dependency
 - Add https://github.com/joeljfischer/YMTGetDeviceName
-- Select "Up to Next Major" with "5.10.0"
+- Select "Up to Next Major" with "5.12.0"
 
 ## How to use
 ### Import
@@ -25,4 +25,4 @@ print(YMTGetDeviceName.getDeviceName())
 
 ## Q&A
 ### What is the range of supported devices?
-Supports iPhone and iPad identifiers up to 2026/03/24, including the missing 2024-2026 iPhone and iPad models verified in this update.
+Supports iPhone and iPad identifiers up to 2026/10/21, including the iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo.
